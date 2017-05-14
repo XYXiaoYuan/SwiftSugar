@@ -12,6 +12,8 @@
 		EA52297A1EC76045006BB516 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5229781EC76045006BB516 /* Main.storyboard */; };
 		EA52297C1EC76045006BB516 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA52297B1EC76045006BB516 /* Assets.xcassets */; };
 		EA52297F1EC76045006BB516 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA52297D1EC76045006BB516 /* LaunchScreen.storyboard */; };
+		EAFC32731EC89EE1000AEE89 /* Nibloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */; };
+		EAFC32761EC8A100000AEE89 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC32751EC8A100000AEE89 /* Reusable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EA52297B1EC76045006BB516 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA52297E1EC76045006BB516 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA5229801EC76045006BB516 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibloadable.swift; sourceTree = "<group>"; };
+		EAFC32751EC8A100000AEE89 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,22 @@
 			children = (
 				EA5229741EC76045006BB516 /* AppDelegate.swift */,
 				EA5229761EC76045006BB516 /* ViewController.swift */,
+				EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */,
+				EAFC32751EC8A100000AEE89 /* Reusable.swift */,
+				EAFC32741EC89EF2000AEE89 /* Resources */,
+			);
+			path = SwiftSugar;
+			sourceTree = "<group>";
+		};
+		EAFC32741EC89EF2000AEE89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				EA5229781EC76045006BB516 /* Main.storyboard */,
 				EA52297B1EC76045006BB516 /* Assets.xcassets */,
 				EA52297D1EC76045006BB516 /* LaunchScreen.storyboard */,
 				EA5229801EC76045006BB516 /* Info.plist */,
 			);
-			path = SwiftSugar;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFC32761EC8A100000AEE89 /* Reusable.swift in Sources */,
 				EA5229771EC76045006BB516 /* ViewController.swift in Sources */,
+				EAFC32731EC89EE1000AEE89 /* Nibloadable.swift in Sources */,
 				EA5229751EC76045006BB516 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +318,7 @@
 				EA5229851EC76045006BB516 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
