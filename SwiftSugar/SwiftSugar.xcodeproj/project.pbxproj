@@ -15,7 +15,7 @@
 		EA542AB11EE550A4002386F3 /* ViewOfVcable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA542AB01EE550A4002386F3 /* ViewOfVcable.swift */; };
 		EAFC32731EC89EE1000AEE89 /* Nibloadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */; };
 		EAFC32761EC8A100000AEE89 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFC32751EC8A100000AEE89 /* Reusable.swift */; };
-		EAFE11981ECE8794001CE969 /* CacheSizeTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE11971ECE8794001CE969 /* CacheSizeTool.swift */; };
+		EAFE11981ECE8794001CE969 /* CacheSizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE11971ECE8794001CE969 /* CacheSizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		EA542AB01EE550A4002386F3 /* ViewOfVcable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewOfVcable.swift; sourceTree = "<group>"; };
 		EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nibloadable.swift; sourceTree = "<group>"; };
 		EAFC32751EC8A100000AEE89 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
-		EAFE11971ECE8794001CE969 /* CacheSizeTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSizeTool.swift; sourceTree = "<group>"; };
+		EAFE11971ECE8794001CE969 /* CacheSizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheSizable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 				EA5229761EC76045006BB516 /* ViewController.swift */,
 				EAFC32721EC89EE1000AEE89 /* Nibloadable.swift */,
 				EAFC32751EC8A100000AEE89 /* Reusable.swift */,
-				EAFE11971ECE8794001CE969 /* CacheSizeTool.swift */,
+				EAFE11971ECE8794001CE969 /* CacheSizable.swift */,
 				EA542AB01EE550A4002386F3 /* ViewOfVcable.swift */,
 				EAFC32741EC89EF2000AEE89 /* Resources */,
 			);
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAFE11981ECE8794001CE969 /* CacheSizeTool.swift in Sources */,
+				EAFE11981ECE8794001CE969 /* CacheSizable.swift in Sources */,
 				EAFC32761EC8A100000AEE89 /* Reusable.swift in Sources */,
 				EA5229771EC76045006BB516 /* ViewController.swift in Sources */,
 				EAFC32731EC89EE1000AEE89 /* Nibloadable.swift in Sources */,
