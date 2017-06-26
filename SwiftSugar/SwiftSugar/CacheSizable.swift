@@ -49,7 +49,7 @@ extension CacheSizable {
         }
     }
 
-    func getCacheFileSize(directoryPath: String, complection: @escaping (cacheSize<String>) -> Void) {
+    func getCacheFileSize(directoryPath: String, completion: @escaping (cacheSize<String>) -> Void) {
         // 获取文件管理者
         let manger = FileManager.default
         var isDirectory: ObjCBool = false;
@@ -105,7 +105,7 @@ extension CacheSizable {
 
             let formatTotalSizeStr = "\(String(format: "%.2f", totalSize))\(units[index])"
             DispatchQueue.main.async(execute: { () -> Void in
-                complection(cacheSize.init(sizeString: formatTotalSizeStr))
+                completion(cacheSize.init(sizeString: formatTotalSizeStr))
             })
             
         })
